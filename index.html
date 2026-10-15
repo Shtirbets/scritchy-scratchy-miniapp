@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
+  <title>Scratchy Mini</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+  <main class="app">
+    <header><span>SCRATCHY</span><strong id="money">$100</strong></header>
+    <section class="ticket-card">
+      <div class="ticket-title">LUCKY TICKET</div>
+      <div id="scratchGrid" class="scratch-grid" aria-label="Сотри защитный слой"></div>
+      <button id="newTicket" class="primary">Новый билет</button>
+    </section>
+    <section class="stats"><div>Билетов <b id="tickets">0</b></div><div>Рекорд <b id="best">$0</b></div></section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
